@@ -15,7 +15,7 @@ function Login() {
       setAuthenticated(true);
     }
     if (authenticated) {
-      navigate("/home");
+      navigate("/app");
     }
   }, [authenticated, navigate]);
 
@@ -61,11 +61,12 @@ function Login() {
           </button>
         </div>
         <button
+          className="text-sm text-gray-500"
           onClick={() => {
             navigate("register");
           }}
         >
-          Sign Up
+          Create new account
         </button>
       </div>
     </div>

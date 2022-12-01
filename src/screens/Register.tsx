@@ -19,7 +19,7 @@ export default function Register() {
       setAuthenticated(true);
     }
     if (authenticated) {
-      navigate("/home");
+      navigate("/app");
     }
   }, [authenticated, navigate]);
 
@@ -74,7 +74,7 @@ export default function Register() {
             Leave blank if registering as an employee.
           </div>
         </div>
-        <div className="flex flex-row gap-3">
+        <div className="flex flex-row gap-3 m-auto">
           <button
             onClick={async () => {
               const data = {
@@ -93,7 +93,6 @@ export default function Register() {
             Register
           </button>
         </div>
-        <button>Sign Up</button>
       </div>
     </div>
   );

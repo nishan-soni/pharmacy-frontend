@@ -27,7 +27,7 @@ function App() {
                 <Home />
               </PrivateRoute>
             }
-            path={"/home/*"}
+            path={"/app/*"}
           />
         </Routes>
       </BrowserRouter>
