@@ -12,7 +12,7 @@ export default function SectionButton(props: SectionButtonProps) {
       onClick={() => {
         navigate(`${name.toLowerCase()}`);
       }}
-      className="w-72 h-72 border text-xl shadow rounded"
+      className="w-60 h-60 border text-xl shadow rounded"
     >
       {name}
     </button>

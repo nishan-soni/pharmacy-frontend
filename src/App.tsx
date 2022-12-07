@@ -16,7 +16,7 @@ function App() {
     }
   }, []);
   return (
-    <div>
+    <div className="w-screen h-screen overflow-x-hidden">
       <BrowserRouter>
         <Routes>
           <Route element={<Login />} path="/" />
